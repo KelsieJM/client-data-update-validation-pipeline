@@ -32,6 +32,14 @@ This tool runs pre-validation checks before the file enters the pipeline, catchi
 - Distinguishes between failed rows and total errors found
 - Graceful failure with clear messages if files or columns are missing
 
+```
+## Project Structure
+main.py          # main validation script
+config.json      # client validation rules
+input.csv        # sample input file
+README.md        # this file
+```
+
 ## Future Improvements
 
 - Command line arguments for dynamic file input
