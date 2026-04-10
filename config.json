@@ -1,0 +1,17 @@
+{
+  "CLIENT_A": {
+    "invalid_characters": ["*", "%", "^"],
+    "fields_to_check": ["name", "address"],
+    "fail_file_on_error": true
+  },
+  "CLIENT_B": {
+    "invalid_characters": ["*", "#", "@"],
+    "fields_to_check": ["name", "address", "email"],
+    "fail_file_on_error": true
+  },
+  "CLIENT_C": {
+    "invalid_characters": ["^", "%"],
+    "fields_to_check": ["name"],
+    "fail_file_on_error": false
+  }
+}

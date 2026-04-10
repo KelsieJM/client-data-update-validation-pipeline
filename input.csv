@@ -1,0 +1,5 @@
+account_id,agency,client,update_type,name,address,email,phone
+ACC001,Agency One,CLIENT_A,address_update,John Smith,4 High St,john@email.com,07123456789
+ACC002,Agency Two,CLIENT_A,name_update,Jane* Doe,8 Main Rd,jane@email.com,07987654321
+ACC003,Agency One,CLIENT_A,address_update,Bob Jones,2 Hill Ave%^,bob@email.com,07000000000
+ACC004,Agency Three,CLIENT_A,email_update,Amy Brown,10 Green Lane,amy@email.com,07888888888
